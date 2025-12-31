@@ -11,6 +11,7 @@ if (!fs.existsSync(serviceDir)) {
     fs.mkdirSync(serviceDir, { recursive: true });
 }
 
+// Menyalin file pendukung ke folder public
 const filesToCopy = [
     'index.html', 
     'robots.txt',
