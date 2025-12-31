@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://invoicemaker.guidify.app/sitemap.xml
