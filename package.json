@@ -1,7 +1,13 @@
 {
   "name": "invoice-maker-pro",
   "version": "1.0.0",
+  "description": "pSEO Invoice Maker dengan Python (Hybrid Static & Dynamic)",
   "scripts": {
-    "build": "node generate.js"
-  }
+    "generate:db": "python3 generate_database.py",
+    "build": "python3 generate_pages.py",
+    "dev": "export FLASK_APP=api/index.py && python3 -m flask run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
